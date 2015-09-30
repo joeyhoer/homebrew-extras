@@ -1,4 +1,5 @@
 class Pngwolf < Formula
+  desc "PNG minimizer which uses a genetic algorithm to find optimial PNG scanline filter combinations."
   homepage "http://bjoern.hoehrmann.de/pngwolf/"
   head "https://github.com/joeyhoer/pngwolf.git"
 

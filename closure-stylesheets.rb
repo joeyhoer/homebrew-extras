@@ -1,4 +1,5 @@
 class ClosureStylesheets < Formula
+  desc "Adds variables, functions, conditionals, and mixins to standard CSS, in addition to CSS minification, linting, RTL flipping, and class renaming."
   homepage "https://code.google.com/p/closure-stylesheets/"
   # https://closure-stylesheets.googlecode.com/files/closure-stylesheets-20111230.jar
   url "https://github.com/google/closure-stylesheets.git", :using => :git

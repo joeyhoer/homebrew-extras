@@ -1,8 +1,9 @@
 class Kzipmix < Formula
+  desc "Compressor focusing on space over speed."
   homepage "http://www.advsys.net/ken/utils.htm"
   url "http://static.jonof.id.au/dl/kenutils/kzipmix-20150319-darwin.tar.gz"
-  sha1 "51014b085a454b328c473173381ad81c7a3033a3"
   version "20150319"
+  sha1 "51014b085a454b328c473173381ad81c7a3033a3"
 
   def install
     bin.install ["kzip", "zipmix"]

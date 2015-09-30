@@ -1,4 +1,5 @@
 class Jpegquality < Formula
+  desc "Estimate the quality of the JPEG based on the quantization tables."
   homepage "http://www.hackerfactor.com/src/jpegquality.c"
   head "http://www.hackerfactor.com/src/jpegquality.c"
 

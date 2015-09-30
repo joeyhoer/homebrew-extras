@@ -1,4 +1,5 @@
 class Gifv < Formula
+  desc "Convert GIFs and videos into GIF-like videos"
   homepage "https://github.com/joeyhoer/gifv"
   head "https://github.com/joeyhoer/gifv.git"
 

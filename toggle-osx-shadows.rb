@@ -1,4 +1,5 @@
 class ToggleOsxShadows < Formula
+  desc "Toggle OS X window shadows."
   homepage "https://github.com/pufuwozu/toggle-osx-shadows"
   url "https://github.com/pufuwozu/toggle-osx-shadows.git", :using => :git
 
