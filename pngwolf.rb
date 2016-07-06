@@ -4,6 +4,9 @@ class Pngwolf < Formula
   head "https://github.com/joeyhoer/pngwolf.git"
 
   depends_on "cmake" => :build
+  #depends_on "galib"
+  #depends_on "p7zip"
+  #depends_on "zlib"
 
   def install
     system "./build.sh"
