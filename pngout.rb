@@ -1,9 +1,9 @@
 class Pngout < Formula
   desc "Optimizes the size of .PNG files losslessly."
   homepage "http://www.advsys.net/ken/util/pngout.htm"
-  url "http://static.jonof.id.au/dl/kenutils/pngout-20150319-darwin.tar.gz"
-  version "20150319"
-  sha1 "0ad746116d5f7ae1f4c581476d49d545517df42e"
+  url "http://static.jonof.id.au/dl/kenutils/pngout-20150920-darwin.tar.gz"
+  version "20150920"
+  sha256 "f3fdd1e2c3f1f1fa886b3b302d64e5e9285cf917ddd43dfd75fb3ff156b66442"
 
   def install
     bin.install "pngout"

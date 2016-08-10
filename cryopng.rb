@@ -3,7 +3,7 @@ class Cryopng < Formula
   homepage "http://encode.ru/threads/1260-CryoPNG-short-introduction"
   url "http://encode.ru/attachment.php?attachmentid=1907&d=1333581198"
   version "tk1"
-  sha1 "dfd72c1ad81e02441591d438ea0782b54fa12fae"
+  sha256 "fd2981ba1c0e08018623dbc355554716ac814a1519ca5b91679260f0ef967a34"
 
   def install
     bin.install ["cryopng", "cryogen"]

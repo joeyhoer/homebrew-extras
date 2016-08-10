@@ -3,7 +3,7 @@ class PngnqS9 < Formula
   homepage "http://sourceforge.net/projects/pngnqs9"
   url "http://downloads.sourceforge.net/project/pngnqs9/pngnq-s9-2.0.1.tar.gz"
   version "2.0.1"
-  sha1 "3f9056032c1eefdfcca2078c9cd1e29c00cbbe76"
+  sha256 "4c88a87e7b3c09f762f5bb27cd9639402b35d48abe010174d2e0cfd2fdd98ae6"
 
   depends_on "pkg-config"
   depends_on "libpng"

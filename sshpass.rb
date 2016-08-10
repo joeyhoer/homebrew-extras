@@ -4,9 +4,9 @@ class Sshpass < Formula
   Homebrew will not install \"because it makes it too easy for novice SSH
   users to ruin SSH's security.\""
   homepage "http://sourceforge.net/projects/sshpass"
-  url "http://sourceforge.net/projects/sshpass/files/sshpass/1.05/sshpass-1.05.tar.gz"
-  version "1.05"
-  sha1 "6dafec86dd74315913417829542f4023545c8fd7"
+  url "http://sourceforge.net/projects/sshpass/files/sshpass/1.06/sshpass-1.06.tar.gz"
+  version "1.06"
+  sha256 "c6324fcee608b99a58f9870157dfa754837f8c48be3df0f5e2f3accf145dee60"
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",

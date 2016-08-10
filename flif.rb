@@ -3,7 +3,7 @@ class Flif < Formula
   homepage "http://flif.info"
   url "https://github.com/FLIF-hub/FLIF/archive/v0.1-alpha.tar.gz"
   version "0.1"
-  sha1 "55ddb13397a2fa6ff6b786a65a40237d15559d56"
+  sha256 "b15229e07b43758bb993aa912a08d66f62e078e3f4964b13ffe7a13b6b3ecd07"
 
   depends_on "pkg-config" => :build
   depends_on "libpng"

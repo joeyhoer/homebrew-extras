@@ -3,7 +3,7 @@ class Huffmix < Formula
   homepage "http://frdx.free.fr/huffmix/"
   url "http://encode.ru/attachment.php?attachmentid=2322&d=1368526606"
   version "0.6b1"
-  sha1 "5c104f41fa8307131a59087808819da3fa04a307"
+  sha256 "f9056e68607aadf51d92a4ee768a5e312c811627d1b8d677462844819fdbaabc"
 
   def install
     bin.install "huffmix"
