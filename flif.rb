@@ -1,9 +1,9 @@
 class Flif < Formula
   desc "A lossless image format based on MANIAC compression"
   homepage "http://flif.info"
-  url "https://github.com/FLIF-hub/FLIF/archive/v0.2.2.tar.gz"
-  version "0.2.2"
-  sha256 "92c893271a96550a31b1cc447db1739fee655c4b0c53f3b93f3f0d4f5292ec0c"
+  url "https://github.com/FLIF-hub/FLIF/archive/v0.3.tar.gz"
+  version "0.3.0"
+  sha256 "aa02a62974d78f8109cff21ecb6d805f1d23b05b2db7189cfdf1f0d97ff89498"
 
   option "with-apng", "Build with APNG conversion"
   option "with-gif", "Build with GIF conversion"
