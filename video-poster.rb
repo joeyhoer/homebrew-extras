@@ -6,6 +6,7 @@ class VideoPoster < Formula
   bottle :unneeded
 
   depends_on "ffmpeg"
+  depends_on "imagemagick"
 
   def install
     bin.install "video-poster.sh" => "video-poster"
