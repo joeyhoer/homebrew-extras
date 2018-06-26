@@ -5,7 +5,6 @@ cask 'colors' do
   url 'https://github.com/joeyhoer/colors/releases/download/1.0.0/Colors.app.zip'
   name 'Colors'
   homepage 'https://github.com/joeyhoer/colors'
-  license :mit
 
   app 'Colors.app'
 end

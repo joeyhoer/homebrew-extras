@@ -34,7 +34,7 @@ cask 'font-microsoft-office' do
   font 'MEIRYO.TTC',   :target => 'Meiryo.ttc'
   font 'MEIRYOB.TTC',  :target => 'MeiryoBold.ttc'
 
-  caveats <<-EOS.undent
+  caveats <<~EOS
     You may use the fonts that accompany the PowerPoint Viewer
     only to display and print content from a device running a
     Microsoft Windows operating system.
