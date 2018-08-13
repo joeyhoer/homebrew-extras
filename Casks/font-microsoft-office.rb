@@ -35,6 +35,12 @@ cask 'font-microsoft-office' do
   font 'MEIRYOB.TTC',  :target => 'MeiryoBold.ttc'
 
   caveats <<~EOS
+    PowerPoint Viewer was retired on April 30, 2018. It's no
+    longer available for download directly from Microsoft. It
+    will be downloaded from a mirror.
+
+    https://support.office.com/en-us/article/view-a-presentation-without-powerpoint-2f1077ab-9a4e-41ba-9f75-d55bd9b231a6
+
     You may use the fonts that accompany the PowerPoint Viewer
     only to display and print content from a device running a
     Microsoft Windows operating system.
