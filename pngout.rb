@@ -9,7 +9,7 @@ class Pngout < Formula
     bin.install "pngout"
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     We agreed to the PNGOUT license for you.
     If this is unacceptable you should uninstall.
 
