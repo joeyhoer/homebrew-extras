@@ -9,7 +9,7 @@ class Kzipmix < Formula
     bin.install ["kzip", "zipmix"]
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     We agreed to the KZIP license for you.
     If this is unacceptable you should uninstall.
 
