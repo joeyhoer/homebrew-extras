@@ -1,7 +1,7 @@
 class ToggleOsxShadows < Formula
   desc "Toggle OS X window shadows."
   homepage "https://github.com/pufuwozu/toggle-osx-shadows"
-  url "https://github.com/pufuwozu/toggle-osx-shadows.git", :using => :git
+  head "https://github.com/pufuwozu/toggle-osx-shadows.git", :using => :git
 
   def install
     system "make"
