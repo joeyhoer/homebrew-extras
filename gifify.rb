@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Gifify < Formula
   desc "Turn movies into GIFs"
   homepage "https://github.com/joeyhoer/gifify"
@@ -6,8 +9,8 @@ class Gifify < Formula
   bottle :unneeded
 
   depends_on "ffmpeg"
-  depends_on "imagemagick"
   depends_on "gifsicle"
+  depends_on "imagemagick"
 
   def install
     bin.install "gifify.sh" => "gifify"

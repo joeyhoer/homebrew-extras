@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class SaliencyDetector < Formula
   homepage "https://github.com/technopagan/mss-saliency"
   head "https://github.com/technopagan/mss-saliency.git"

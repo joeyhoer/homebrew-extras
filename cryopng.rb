@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class Cryopng < Formula
-  desc "Hacked OptiPNG with advanced \"Dirty Transparency\" cleaning."
+  desc "Hacked OptiPNG with advanced \"Dirty Transparency\" cleaning"
   homepage "http://encode.su/threads/1260-CryoPNG-short-introduction"
   url "http://encode.su/attachment.php?attachmentid=1907&d=1333581198"
   version "tk1"

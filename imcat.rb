@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Imcat < Formula
   desc "Concatenate images"
   homepage "https://github.com/joeyhoer/imcat"

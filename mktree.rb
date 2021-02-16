@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Mktree < Formula
   desc "Create a directory tree"
   homepage "https://github.com/joeyhoer/mktree"

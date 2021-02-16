@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Sshpass < Formula
   desc "A tool for non-interactivly performing password authentication with
   SSH's so called \"interactive keyboard password authentication\", which
@@ -10,7 +13,7 @@ class Sshpass < Formula
 
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
-                          "--prefix=#{prefix}"
+           "--prefix=#{prefix}"
     system "make install"
   end
 

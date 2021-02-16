@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class Pngout < Formula
-  desc "Optimizes the size of .PNG files losslessly."
+  desc "Optimizes the size of .PNG files losslessly"
   homepage "http://www.advsys.net/ken/util/pngout.htm"
   url "http://static.jonof.id.au/dl/kenutils/pngout-20150920-darwin.tar.gz"
   version "20150920"
@@ -9,12 +12,13 @@ class Pngout < Formula
     bin.install "pngout"
   end
 
-  def caveats; <<~EOS
-    We agreed to the PNGOUT license for you.
-    If this is unacceptable you should uninstall.
+  def caveats
+    <<~EOS
+      We agreed to the PNGOUT license for you.
+      If this is unacceptable you should uninstall.
 
-    License information at:
-    http://advsys.net/ken/utils.htm#pngoutkziplicense
+      License information at:
+      http://advsys.net/ken/utils.htm#pngoutkziplicense
     EOS
   end
 end

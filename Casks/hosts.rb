@@ -1,15 +1,15 @@
-cask 'hosts' do
-  version '1.3'
-  sha256 '70a73c0fb9f8d9f60f2bc24e549ae2bb6fefa27f59e81d3edf64daccfd6d0ab0'
+cask "hosts" do
+  version "1.4.5"
+  sha256 "e625edd5bbce4766225a77f61aa6efa82e6fd95ba95a9bd48abe09238b8bea01"
 
-  # github.com/downloads/specialunderwear/Hosts.prefpane was verified as official when first introduced to the cask
-  url "https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-#{version}.pkg"
-  appcast 'https://github.com/specialunderwear/Hosts.prefpane/releases.atom',
-          checkpoint: '616c636afe819d024b6a6247f229d028356f1f9fc3e06b31207350d848f418b9'
-  name 'Hosts'
-  homepage 'http://permanentmarkers.nl/software.html'
+  url "https://www.dirk-froehling.de/resources/Software/Hosts-PrefPane-#{version}.pkg",
+      verified: "dirk-froehling.de/resources/Software"
+  appcast "https://github.com/specialunderwear/Hosts.prefpane/releases.atom"
+  name "Hosts"
+  desc "System preference pane to manage the hosts file"
+  homepage "https://github.com/specialunderwear/Hosts.prefpane"
 
-  pkg "Hosts-#{version}.pkg", allow_untrusted: true
+  pkg "Hosts-PrefPane-#{version}.pkg", allow_untrusted: true
 
-  uninstall pkgutil: 'nl.permanentmarkers.hosts.Hosts.pkg'
+  uninstall pkgutil: "nl.permanentmarkers.hosts.Hosts.pkg"
 end

@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class VideoCrossfade < Formula
   desc "Crossfade videos for seamless loops"
   homepage "https://github.com/joeyhoer/video-crossfade"

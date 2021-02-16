@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class Kzipmix < Formula
-  desc "Compressor focusing on space over speed."
+  desc "Compressor focusing on space over speed"
   homepage "http://www.advsys.net/ken/utils.htm"
   url "http://static.jonof.id.au/dl/kenutils/kzipmix-20150319-darwin.tar.gz"
   version "20150319"
@@ -9,12 +12,13 @@ class Kzipmix < Formula
     bin.install ["kzip", "zipmix"]
   end
 
-  def caveats; <<~EOS
-    We agreed to the KZIP license for you.
-    If this is unacceptable you should uninstall.
+  def caveats
+    <<~EOS
+      We agreed to the KZIP license for you.
+      If this is unacceptable you should uninstall.
 
-    License information at:
-    http://advsys.net/ken/utils.htm#pngoutkziplicense
+      License information at:
+      http://advsys.net/ken/utils.htm#pngoutkziplicense
     EOS
   end
 end

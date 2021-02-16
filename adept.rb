@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Adept < Formula
   homepage "https://github.com/technopagan/adept-jpg-compressor"
   head "https://github.com/technopagan/adept-jpg-compressor.git"

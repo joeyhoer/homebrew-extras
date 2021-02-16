@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class Clickdrag < Formula
-  desc "Click and drag the mouse from the command line on mac OS"
+  desc "Click and drag the mouse from the command-line on mac OS"
   homepage "https://github.com/joeyhoer/clickdrag"
   head "https://github.com/joeyhoer/clickdrag.git"
 

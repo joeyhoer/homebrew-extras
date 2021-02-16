@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Defluff < Formula
   desc "Attempts to optimize deflate streams by finding the shortest possible huffman coding representation"
   homepage "http://encode.su/threads/1214-defluff-a-deflate-huffman-optimizer"

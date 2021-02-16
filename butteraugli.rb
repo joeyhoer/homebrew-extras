@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Butteraugli < Formula
   desc "Estimates the psychovisual difference between two images"
   homepage "https://github.com/google/butteraugli"

@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class Huffmix < Formula
-  desc "Huffmix compares two PNG files produced by PNGOUT in random mode and cherry-picks the smallest deflate blocks to combine them into a new file."
+  desc "Compares two PNG files produced by PNGOUT in random mode and cherry-picks the smallest deflate blocks to combine them into a new file"
   homepage "http://frdx.free.fr/huffmix/"
   url "http://encode.su/attachment.php?attachmentid=2322&d=1368526606"
   version "0.6b1"

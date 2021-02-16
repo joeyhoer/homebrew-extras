@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Jsk < Formula
   desc "JPEG Scan Killer - progressive JPEG explained in slowmo"
   homepage "http://encode.su/threads/1800-JSK-JPEG-Scan-Killer-progressive-JPEG-explained-in-slowmo"

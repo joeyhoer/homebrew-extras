@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Gifv < Formula
   desc "Convert GIFs and videos into GIF-like videos"
   homepage "https://github.com/joeyhoer/gifv"

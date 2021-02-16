@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class NiceScreenshot < Formula
   desc "Intelligently resize, trim and frame images"
   homepage "https://github.com/joeyhoer/nice-screenshot"

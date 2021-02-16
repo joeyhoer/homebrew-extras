@@ -8,14 +8,16 @@ cask "font-san-francisco-pro" do
     This sans-serif typeface is the system font for iOS, macOS, and tvOS, and
     includes a rounded variant. It provides a consistent, legible, and friendly
     typographic voice.
-    EOS
+  EOS
   homepage "https://developer.apple.com/fonts/"
 
   pkg "San Francisco Pro.pkg"
+
+  uninstall pkgutil: "com.apple.pkg.SanFranciscoPro"
 
   caveats <<~EOS
     This package will install the San Francisco Pro font families for use in
     designing software for Apple platforms. Please see the accompanying license
     for details.
-    EOS
+  EOS
 end

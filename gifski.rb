@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class Gifski < Formula
-  desc "GIF encoder based on libimagequant (pngquant, gifquant?). Squeezes maximum possible quality from the awful GIF format."
+  desc "GIF encoder based on libimagequant (pngquant, gifquant?). Squeezes maximum possible quality from the awful GIF format"
   homepage "https://github.com/ImageOptim/gifski"
   url "https://github.com/ImageOptim/gifski/releases/download/0.1.0/gifski-0.1.0.zip"
   version "0.1.0"

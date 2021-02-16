@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class Dnd < Formula
   desc "Control macOS notification 'Do Not Disturb' settings"
   homepage "https://github.com/joeyhoer/dnd"

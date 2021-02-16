@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class PngwolfZopfli < Formula
-  desc "PNG minimizer which uses a genetic algorithm to find optimial PNG scanline filter combinations."
+  desc "PNG minimizer which uses a genetic algorithm to find optimial PNG scanline filter combinations"
   homepage "https://github.com/jibsen/pngwolf-zopfli"
   head "https://github.com/jibsen/pngwolf-zopfli.git"
 

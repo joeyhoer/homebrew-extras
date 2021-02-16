@@ -1,5 +1,8 @@
+# typed: false
+# frozen_string_literal: true
+
 class Flif < Formula
-  desc "A lossless image format based on MANIAC compression"
+  desc "Lossless image format based on MANIAC compression"
   homepage "http://flif.info"
   url "https://github.com/FLIF-hub/FLIF/archive/v0.3.tar.gz"
   version "0.3.0"
@@ -9,10 +12,10 @@ class Flif < Formula
   option "with-gif", "Build with GIF conversion"
 
   depends_on "pkg-config" => :build
-  depends_on "libpng"
-  depends_on "sdl2"
   depends_on "apngdis" => :run if build.with? "apng"
   depends_on "imagemagick" => :run if build.with? "gif"
+  depends_on "libpng"
+  depends_on "sdl2"
 
   def install
     system "make"

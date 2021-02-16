@@ -1,3 +1,6 @@
+# typed: false
+# frozen_string_literal: true
+
 class VideoPoster < Formula
   desc "Create poster images for use with HTML video elements"
   homepage "https://github.com/joeyhoer/video-poster"
