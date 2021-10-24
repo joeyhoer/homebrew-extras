@@ -2,7 +2,7 @@ cask "font-san-francisco-pro" do
   version :latest
   sha256 :no_check
 
-  url "https://devimages-cdn.apple.com/design/resources/download/SF-Font-Pro.dmg"
+  url "https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg"
   name "SF Pro"
   desc <<~EOS
     This sans-serif typeface is the system font for iOS, macOS, and tvOS, and

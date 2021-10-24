@@ -2,7 +2,7 @@ cask "font-san-francisco-compact" do
   version :latest
   sha256 :no_check
 
-  url "https://devimages-cdn.apple.com/design/resources/download/SF-Font-Compact.dmg"
+  url "https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg"
   name "SF Compact"
   desc <<~EOS
     This sans-serif typeface is the system font for watchOS, and includes a

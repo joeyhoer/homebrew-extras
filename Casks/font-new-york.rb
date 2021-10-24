@@ -2,7 +2,7 @@ cask "font-new-york" do
   version :latest
   sha256 :no_check
 
-  url "https://devimages-cdn.apple.com/design/resources/download/NY-Font.dmg"
+  url "https://devimages-cdn.apple.com/design/resources/download/NY.dmg"
   name "New York"
   desc <<~EOS
     This all-new, Apple-designed serif typeface is based on essential aspects
