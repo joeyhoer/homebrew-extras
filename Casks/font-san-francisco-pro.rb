@@ -11,7 +11,7 @@ cask "font-san-francisco-pro" do
   EOS
   homepage "https://developer.apple.com/fonts/"
 
-  pkg "San Francisco Pro.pkg"
+  pkg "SF Pro Fonts.pkg"
 
   uninstall pkgutil: "com.apple.pkg.SanFranciscoPro"
 

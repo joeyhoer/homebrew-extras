@@ -11,7 +11,7 @@ cask "font-san-francisco-compact" do
   EOS
   homepage "https://developer.apple.com/fonts/"
 
-  pkg "San Francisco Compact.pkg"
+  pkg "SF Compact Fonts.pkg"
 
   uninstall pkgutil: "com.apple.pkg.SanFranciscoCompact"
 
