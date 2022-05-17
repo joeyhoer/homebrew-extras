@@ -6,8 +6,6 @@ class Gifify < Formula
   homepage "https://github.com/joeyhoer/gifify"
   head "https://github.com/joeyhoer/gifify.git"
 
-  bottle :unneeded
-
   depends_on "ffmpeg"
   depends_on "gifsicle"
   depends_on "imagemagick"

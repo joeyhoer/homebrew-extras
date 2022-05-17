@@ -6,8 +6,6 @@ class VideoCrossfade < Formula
   homepage "https://github.com/joeyhoer/video-crossfade"
   head "https://github.com/joeyhoer/video-crossfade.git"
 
-  bottle :unneeded
-
   depends_on "ffmpeg"
 
   def install

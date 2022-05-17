@@ -6,8 +6,6 @@ class Imcat < Formula
   homepage "https://github.com/joeyhoer/imcat"
   head "https://github.com/joeyhoer/imcat.git"
 
-  bottle :unneeded
-
   depends_on "imagemagick"
 
   def install

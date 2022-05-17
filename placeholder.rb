@@ -3,7 +3,7 @@ class Placeholder < Formula
   homepage "https://github.com/joeyhoer/placeholder"
   head "https://github.com/joeyhoer/placeholder.git"
 
-  depends_on "ffmpeg"
+  depends_on "imagemagick"
 
   def install
     bin.install "placeholder.sh" => "placeholder"

@@ -6,8 +6,6 @@ class VideoPoster < Formula
   homepage "https://github.com/joeyhoer/video-poster"
   head "https://github.com/joeyhoer/video-poster.git"
 
-  bottle :unneeded
-
   depends_on "ffmpeg"
 
   def install
