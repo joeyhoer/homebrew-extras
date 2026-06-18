@@ -2,18 +2,33 @@
 # frozen_string_literal: true
 
 class Pup < Formula
-  homepage 'https://github.com/ericchiang/pup'
-  version '0.4.0'
+  desc "Parsing HTML at the command-line"
+  homepage "https://github.com/ericchiang/pup"
+  url "https://github.com/ericchiang/pup/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "0d546ab78588e07e1601007772d83795495aa329b19bd1c3cde589ddb1c538b0"
+  license "MIT"
 
-  if Hardware::CPU.is_64_bit?
-    url 'https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_darwin_amd64.zip'
-    sha256 'c539a697efee2f8e56614a54cb3b215338e00de1f6a7c2fa93144ab6e1db8ebe'
-  else
-    url 'https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_darwin_386.zip'
-    sha256 '75c27caa0008a9cc639beb7506077ad9f32facbffcc4e815e999eaf9588a527e'
-  end
+  depends_on "go" => :build
 
   def install
-    bin.install 'pup'
+    ENV["GO111MODULE"] = "off"
+
+    gopath = buildpath/"gopath"
+    pkgpath = gopath/"src/github.com/ericchiang/pup"
+
+    pkgpath.mkpath
+
+    files = Dir["*"].reject { |f| f == "gopath" }
+    cp_r files, pkgpath
+
+    ENV["GOPATH"] = gopath
+
+    cd pkgpath do
+      system "go", "build", "-o", bin/"pup"
+    end
+  end
+
+  test do
+    assert_match "pup", shell_output("#{bin}/pup --help", 2)
   end
 end
